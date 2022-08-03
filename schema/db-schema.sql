@@ -1,0 +1,8 @@
+CREATE DATABASE task5;
+USE task5;
+CREATE TABLE messages (
+message_id INT AUTO_INCREMENT PRIMARY KEY,
+recepient VARCHAR(50) NOT NULL,
+title VARCHAR(50) NOT NULL,
+message VARCHAR(255) NOT NULL
+);
